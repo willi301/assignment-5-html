@@ -43,18 +43,17 @@
     <p class="js-questions">
         The first option,we could add use JavaScript by writing it in a seperate file, to do this we need to link the JavaScript file to the html. We can do this by adding this in the head of the html file <br>
         <code>
-            script src="path/to/my/script.js">script
+            &lt;script src="path/to/my/script.js">&lt;script>
         </code>
         <br>
         after that we can write any code we want in the javascript file <br>
         The second option is to write the JavaScript code directly in the html file. You can do this by writing the JavaScript inside the script element. <br>
         for example: <br>
         <code>
-            script> <br>
-                window.addEventListener("load", () => { <br>
-                  console.log("This function is executed once the page is fully loaded"); <br>
+            &lt;script> <br>
+                window.addEventListener("load", () => {console.log("This function is executed once the page is fully loaded"); <br>
                 }); <br>
-              /script> <br>
+                &lt;/script> <br>
               
         </code>
 
