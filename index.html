@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="/resources/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+    <!--Image banner for website on the top-->
+    <svg version="1.1"
+        width="100%" height="300px"
+        xmlns="http://www.w3.org/2000/svg">
+        <rect width="50%" height="100%" fill="red" />
+        <rect x="50%" width="50%" height="100%" fill="blue" />
+        <circle cx="50%" cy="50%" r="90" fill="green" />
+        <polygon points="200,50 200,250 500,150" style="fill:lime;stroke:purple;stroke-width:3" />
+        <text x="50%" y="60%" font-size="100" text-anchor="middle" fill="yellow">William</text>
+    </svg>
+
+    <nav class="menu">
+        <ul><a href="index.html">Home Page</a></ul>
+        <ul><a href="views/two.html">Two</a></ul>
+        <ul><a href="views/three.html">Three</a></ul>
+    </nav>
+
+    <h1>Assignment 5</h1>
+    <!--How to add css-->
+    <h2 class="css-questions">How to Apply CSS to HTML</h2>
+    <p class="css-questions">
+        To add css to html externally, you first need to have a CSS document. You need to reference the CSS document in the html document that you want to edit. This can be done by using href attribute in the link element <br>
+        In the CSS file, you use a selector to chose which html element you want to modify. You could do this by choosing all the element or by using specific selector such as class or id.  
+        <br> example of a CSS file <br>
+        <code>
+            p { <br>
+                color: red; <br>
+            }
+        </code> <br> <br>
+        The p means that this CSS code is selecting all paragraph, everything under the brackets meant the attribute that it is changing. In this case, it changing the text color to red.
+    </p>
+
+    <h2 class="js-questions">How to Use JavaScript in a Webpage</h2>
+    <p class="js-questions">
+        The first option,we could add use JavaScript by writing it in a seperate file, to do this we need to link the JavaScript file to the html. We can do this by adding this in the head of the html file <br>
+        <code>
+            script src="path/to/my/script.js">script
+        </code>
+        <br>
+        after that we can write any code we want in the javascript file <br>
+        The second option is to write the JavaScript code directly in the html file. You can do this by writing the JavaScript inside the script element. <br>
+        for example: <br>
+        <code>
+            script> <br>
+                window.addEventListener("load", () => { <br>
+                  console.log("This function is executed once the page is fully loaded"); <br>
+                }); <br>
+              /script> <br>
+              
+        </code>
+
+    </p>
+
+
+
+
+    
+</body>
+</html>
